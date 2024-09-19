@@ -1,0 +1,597 @@
+#active {
+    color: var(--main-color);
+}
+
+#MoonIcon {
+    cursor: pointer;
+}
+
+.Home {
+    /* width: 100%; */
+    /* background-color: #ffffff; */
+    /* background-color: transparent; */
+}
+
+/* ! start Header  */
+
+.Header {
+
+    justify-content: space-between;
+    padding: 10px 10%; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .08); 
+    position: sticky;
+    top: 0;
+    background-color: #d3e3fd;
+    z-index: 1111;
+}
+
+
+.Header-Logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Name {
+    color: #eee;
+}
+
+.Name .Name-El {
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+.Header-a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    margin-left: 40px;
+    transition: color 0.3s;
+}
+
+.Header-a:hover {
+    color: #777;
+}
+
+.Hedaer-Bars {
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+}
+
+/* ! end Header  */
+/* ! start Home Page  */
+
+.Home-Page {
+    display: flex;
+    align-items: center;
+    flex-direction :column;
+}
+
+.social-media-homePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Social-media-icon:hover {
+    transform: scale(1.2);
+}
+
+.Social-media-icon {
+
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 20px;
+}
+
+.Social-media-icon span:nth-last-child() {
+    margin-left: 30px;
+    padding-top: 8px;
+    font-size: 12px;
+}
+
+.Content-homePage {
+    width: 80%;
+    height: 330px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #edf2fa;
+    box-shadow: 5px 7px 4px rgba(0, 0, 0, 0.4);
+    margin-top:20px;
+    border-radius: 10px;
+}
+.Photo1 {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    position: sticky;
+    top: 83px;
+    /* overflow-x: auto; */
+    z-index: 1111;
+}
+
+.Nav-item {
+    color: #666;
+    text-decoration: none;
+    padding: 0 30px 0 0;
+
+}
+.Nav-item:hover {
+    text-decoration: underline;
+}
+
+
+.SideBar {
+    position: fixed;
+    top: 70px;
+    flex-direction: column;
+    background-color: #edf2fa;
+    width: 24%;
+    transition: 0.5s;
+    z-index: 1112;
+    right: 43px;
+    max-height: 100vh;
+    padding: 0 0 30px 0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.CloseSideBArIcon {
+
+    margin-left: 10px;
+
+    font-size: 40px;
+    color: var(--main-color);
+}
+
+.sidebar-Header-a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #222;
+    transition: background 0.3s;
+    padding: 12px 7px;
+}
+
+.sidebar-Header-a:hover {
+    /* color: var(--main-color); */
+    background: #dfd9d9;
+}
+
+
+.content-of-page {
+    width: 48%;
+    padding: 0;
+    color: #444;
+}
+
+.content-of-page h1 span {
+    color: var(--main-color);
+    font-size: 8rem;
+}
+
+.content-of-page h3 span{
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: var(--main-color);
+}
+
+
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.buttons a {
+    width: 45%;
+    border: none;
+    outline: none;
+    padding: 15px 50px;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    /* background-color: #eee; */
+    border: 2px solid var(--main-color);
+  
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.buttons a:hover {
+    background-color: transparent;
+}
+
+.MainTab {
+    width: 100%;
+}
+/* ! end Home Page  */
+
+@media screen and (min-width : 990px) and (max-width :2780px) {
+    
+    .Hedaer-Bars{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width : 240px) and (max-width :989px) {
+
+    .Header-a{
+        display: none;
+    }
+ 
+    .empty-Nav {
+        display: none;
+    }
+
+    .search-icon {
+        display: none;
+    }
+
+    .navBar {
+        justify-content: center;
+        overflow-x: auto;
+    }
+    .Visit-Social {
+        display: none;
+    }
+
+    .Content-homePage {
+        width: 95%;
+    }
+
+   
+}
+/* !......................................! */
+
+
+@media screen and (min-width : 1280px) and (max-width : 1536px) {
+    .App {
+        width: calc(100vw - 17px ) ;
+       
+    }
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+
+    .navBar {
+        top: 80px;
+    }
+    .App {
+        width: calc(100vw - 21px ) ;
+       
+    }
+}
+
+@media screen and (min-width : 990px) and (max-width : 1023px) {
+    .navBar {
+        top: 80px;
+    }
+    .App {
+        width: calc(100vw - 17px ) ;
+       
+    }
+}
+
+@media screen and (min-width : 769px) and (max-width : 989px) {
+   
+    .navBar {
+        top: 78px;
+    }
+    .content-of-page {
+        padding-top: 35px;
+
+    }
+    .content-of-page h4 {
+        font-size: 1.3rem;
+    }
+    .content-of-page h1  {
+        font-size: 2rem;
+    }
+   
+    .content-of-page h1 span {
+font-size: 3rem;
+    }
+    .content-of-page p  {
+        font-size: 1.1rem;
+    }
+    .App {
+        width: calc(100vw - 0px) ;
+       
+    }
+}
+
+@media screen and (min-width : 640px) and (max-width : 768px) {
+
+    .navBar {
+        top: 76px;
+    }
+    .Nav-item:first-child {
+        padding-left: 30px;
+    }
+    .content-of-page {
+        padding-top: 35px;
+
+    }
+    .content-of-page h4 {
+        font-size: 1.3rem;
+    }
+    .content-of-page h1  {
+        font-size: 1.6rem;
+    }
+   
+    .content-of-page h1 span {
+font-size: 2.6rem;
+    }
+    .content-of-page p  {
+        font-size: 1rem;
+    }
+    .SideBar {
+        width: 50%;
+    }
+    .App {
+        width: calc(100vw) ;
+       
+    }
+}
+
+@media screen and (min-width : 568px) and (max-width :639px) {
+ 
+  
+    .navBar {
+        top: 74px;
+    }
+    
+    .Nav-item:first-child {
+        padding-left: 100px;
+    }
+    
+    .buttons {
+        flex-direction: column;
+    }
+    .buttons a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .Content-homePage  {
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+    }
+    
+    .content-of-page {
+        text-align: center;
+        width: 100%;
+
+    }
+    .content-of-page h4 {
+        font-size: 1rem;
+    }
+    .content-of-page h1  {
+        font-size: 1.3rem;
+    }
+   
+    .content-of-page h1 span {
+font-size: 2.3rem;
+    }
+    .content-of-page p  {
+        font-size: 0.7rem;
+        display: inline;
+    }
+    .Photo1 {
+        width: 100%;
+   
+        border-radius: 10px 10px 0 0;
+    }
+    .SideBar {
+        width: 50%;
+    }
+    .App {
+        width: calc(100vw) ;
+       
+    }
+}
+
+@media screen and (min-width : 480px) and (max-width :567px) {
+    
+    .navBar {
+        top: 72px;
+    }
+    .Nav-item:first-child {
+        padding-left: 170px;
+    }
+    .buttons {
+        flex-direction: column;
+    }
+    .buttons a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .Content-homePage  {
+        flex-direction: column;
+        align-items: center;
+        height: 444px;
+    }
+    
+    .content-of-page {
+        text-align: center;
+        width: 100%;
+
+    }
+    .content-of-page h4 {
+        font-size: 1rem;
+    }
+    .content-of-page h1  {
+        font-size: 1.3rem;
+    }
+   
+    .content-of-page h1 span {
+font-size: 2.3rem;
+    }
+    .content-of-page p  {
+        font-size: 0.7rem;
+        display: inline;
+    }
+    .Photo1 {
+        width: 100%;
+   
+        border-radius: 10px 10px 0 0;
+    }
+    .SideBar {
+        width: 50%;
+    }
+    .App {
+        width: calc(100vw) ;
+       
+    }
+}
+
+@media screen and (min-width : 320px) and (max-width :479px) {
+  
+    .navBar {
+        top: 70px;
+    }
+    .Nav-item:first-child {
+        padding-left: 340px;
+    }
+    .content-of-page {
+        width: 100%;
+        text-align: center;
+        letter-spacing: 0;
+    }
+    .buttons {
+        flex-direction: column;
+    }
+    .buttons a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .social-media-homePage {
+        overflow-x: auto;
+    }
+    .Social-media-icon:first-child {
+        padding-left: 45px;
+    }
+    .Content-homePage  {
+        flex-direction: column;
+        align-items: center;
+        height: 444px;
+    }
+    
+    .content-of-page {
+        text-align: center;
+        width: 100%;
+
+    }
+    .content-of-page h4 {
+        font-size: 1rem;
+    }
+    .content-of-page h1  {
+        font-size: 1.3rem;
+    }
+   
+    .content-of-page h1 span {
+font-size: 2.3rem;
+    }
+    .content-of-page p  {
+        font-size: 0.7rem;
+        display: inline;
+    }
+    .Photo1 {
+        width: 100%;
+   
+        border-radius: 10px 10px 0 0;
+    }
+    .SideBar {
+        width: 50%;
+    }
+    .App {
+        width: calc(100vw) ;
+       
+    }
+}
+
+@media screen and (min-width : 240px) and (max-width :319px) {
+    .navBar {
+        top: 65px;
+    }
+    .Nav-item:first-child {
+        padding-left: 400px;
+    }
+    .buttons {
+        flex-direction: column;
+    }
+    .buttons a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .social-media-homePage {
+        overflow-x: auto;
+    }
+    .Social-media-icon:first-child {
+        padding-left: 70px;
+    }
+    .Content-homePage  {
+        flex-direction: column;
+        align-items: center;
+        height: 444px;
+    }
+    
+    .content-of-page {
+        text-align: center;
+        width: 100%;
+
+    }
+    .content-of-page h4 {
+        font-size: 1rem;
+    }
+    .content-of-page h1  {
+        font-size: 1.3rem;
+    }
+   
+    .content-of-page h1 span {
+font-size: 2.3rem;
+    }
+    .content-of-page p  {
+        font-size: 0.7rem;
+        display: inline;
+    }
+    .Photo1 {
+        width: 100%;
+   
+        border-radius: 10px 10px 0 0;
+    }
+    .SideBar {
+        width: 50%;
+    }
+    .App {
+        width: calc(100vw) ;
+       
+    }
+    
+}
+
+/* ! ................ */

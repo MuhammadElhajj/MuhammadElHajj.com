@@ -1,0 +1,255 @@
+.About {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+
+
+}
+
+.Part-one {
+    width: 80%;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+
+.Part-tow {
+    width: 80%;
+    height: 260px;
+
+
+}
+
+
+.About-header {
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+    width: 80%;
+}
+
+.About .About-header span {
+    color: var(--main-color);
+    font-size: 20px;
+}
+
+.Full-word {
+    color: var(--main-color);
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.StackDeveloper {
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: -8px;
+    margin-bottom: 10px;
+}
+
+.About-p {
+    color: #000000;
+    font-weight: normal;
+    font-weight: 400;
+}
+
+
+.head-tab {
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.Label:not(:first-child) {
+    margin-left: 20px;
+
+}
+
+.Label {
+    color: var(--main-color);
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.TabContent{
+
+    width:100%;
+    color: #000000;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.TabContent ul {
+    list-style: circle;
+}
+
+.About-photo {
+    width: 40%;
+    height: 40%;
+
+}
+
+.activeTab {
+    color: #10c7ec;
+    position: relative;
+}
+
+
+
+
+
+
+@media screen and (min-width : 990px) and (max-width :1536px) {
+    
+    
+}
+
+@media screen and (min-width : 240px) and (max-width :989px) {
+    
+    
+}
+/* ! ................ */
+@media screen and (min-width : 1280px) and (max-width : 1536px) {
+    
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+
+}
+
+@media screen and (min-width : 990px) and (max-width : 1023px) {
+
+}
+
+@media screen and (min-width : 769px) and (max-width : 989px) {
+   
+ 
+}
+
+@media screen and (min-width : 640px) and (max-width : 768px) {
+
+    .TabContent {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    .About-p {
+        font-size: 16px;
+    }
+    .StackDeveloper {
+        font-size: 1.5rem;
+    }
+    .Full-word {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width : 568px) and (max-width :639px) {
+ 
+  
+    .TabContent {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .About-p {
+        font-size: 15px;
+    }
+    .StackDeveloper {
+        font-size: 1.3rem;
+    }
+    .Full-word {
+        font-size: 2.3rem;
+    }
+
+    .buttons a {
+        padding: 12px 0;
+        
+    }
+}
+
+@media screen and (min-width : 480px) and (max-width :567px) {
+    
+    .TabContent {
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .About-p {
+        font-size: 14px;
+    }
+    .StackDeveloper {
+        font-size: 1.1rem;
+    }
+    .Full-word {
+        font-size: 2.1rem;
+    }
+    .buttons a {
+        padding: 11px 0;
+        
+    }
+}
+
+@media screen and (min-width : 320px) and (max-width :479px) {
+    .Part-one {
+        width: 90%;
+        flex-direction: column;
+    }
+    .TabContent {
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .About-p {
+        font-size: 0.8rem;
+    }
+    .StackDeveloper {
+        font-size: 0.9rem;
+    }
+    .Full-word {
+        font-size: 1.9rem;
+    }
+    .buttons a {
+        padding: 10px 0;
+        
+    }
+   
+}
+
+@media screen and (min-width : 240px) and (max-width :319px) {
+    .Part-one {
+        width: 90%;
+        flex-direction: column;
+    }
+    .Part-tow {
+        height: 130px;
+    }
+    .About-p {
+        font-size: 0.7rem;
+    }
+    .StackDeveloper {
+        font-size: 0.9rem;
+    }
+    .Full-word {
+        font-size: 1.9rem;
+    }
+    .buttons a {
+        padding: 7px 0;
+
+    }
+    .TabContent {
+        font-size: 0.6rem;
+        line-height: 20px;
+    }
+    .Label {
+     
+        font-size: 1rem;
+    }
+
+}
+

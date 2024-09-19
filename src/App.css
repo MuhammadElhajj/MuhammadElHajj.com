@@ -1,0 +1,49 @@
+:root {
+    /* --main-color :  #0e9bbe ; */
+    /* --main-color :  #e91e63 ; */
+    /* --main-color :  #54e91e ; */
+    --main-color :  #10c7ecb0 ;
+    --black-color : #000000 ;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+.search-icon {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.App {
+    position: relative;
+ 
+    
+/* margin-left: 28px !important; */
+}
+@media screen and (min-width : 640px) and (max-width : 1536px) {
+    .App {
+        width: calc(100vw - 17px)  ;
+       
+    }
+}
+
+.scroll {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--main-color);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+  
+}
+
+.anglesArrow {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% , -50%);
+}

@@ -1,0 +1,140 @@
+.footer {
+    background-color: #262626;
+    position: relative;
+    padding: 10px;
+}
+
+
+.Footer-link {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+.Footer-link h2 {
+    color: #fff;
+    font-size: 20px;
+}
+.Footer-link h3 a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.Footer-link h3 a:hover{
+    text-decoration: underline;
+}
+
+.Footer-h4 {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    color: #ddd;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Footer-h4 span {
+    font-weight: 600;
+    color: var(--main-color);
+
+}
+
+.Cpoy-write {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #ddd;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: #171a1c;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.Cpoy-write span{
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 2px 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.Cpoy-write a{
+    color: var(--main-color);
+    margin-left: 4px;
+    text-decoration: none;
+}
+
+.Cpoy-write a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+@media screen and (min-width : 1280px) and (max-width : 1536px) {
+    
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+
+}
+
+@media screen and (min-width : 990px) and (max-width : 1023px) {
+
+}
+
+@media screen and (min-width : 769px) and (max-width : 989px) {
+   
+ 
+}
+
+@media screen and (min-width : 640px) and (max-width : 768px) {
+
+    
+}
+
+@media screen and (min-width : 568px) and (max-width :639px) {
+ 
+  
+
+    
+    
+}
+
+@media screen and (min-width : 480px) and (max-width :567px) {
+    
+  
+}
+
+@media screen and (min-width : 320px) and (max-width :479px) {
+  
+   
+}
+
+@media screen and (min-width : 240px) and (max-width :319px) {
+
+}
+
+/* ! ................ */
+@media screen and (min-width : 990px) and (max-width :1536px) {
+    
+  
+}
+
+@media screen and (min-width : 240px) and (max-width :989px) {
+
+    .Footer-link {
+        text-align: center;
+    }
+   
+}
